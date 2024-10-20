@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="50dp"
+        >
+        <EditText
+            android:id="@+id/textEnterET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="@string/text_enter"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/textResultTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="@string/text_result"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+        <Button
+            android:id="@+id/buttonSaveBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button_save_data"
+            android:padding="3dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="1111"/>
+
+        <Button
+            android:id="@+id/buttonDeleteBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button_Delete"
+            android:padding="3dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
